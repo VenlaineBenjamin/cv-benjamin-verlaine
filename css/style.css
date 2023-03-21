@@ -173,6 +173,10 @@ aside .block .btn-pdf:hover {
   color: white;
   font-weight: 700;
 }
+aside .block .btn-pdf i {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
 aside .block h3 {
   margin-bottom: 0;
   font-size: 1.4rem;
