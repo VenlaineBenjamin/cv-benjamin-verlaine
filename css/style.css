@@ -234,7 +234,7 @@ aside .block .stars-container i {
   font-size: 2rem;
   margin: 0 1rem;
 }
-aside .block .social-container {
+aside .block .social-container a {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -243,20 +243,20 @@ aside .block .social-container {
   transition: all 0.2s;
   cursor: pointer;
 }
-aside .block .social-container:hover {
+aside .block .social-container a:hover {
   background: var(--border);
 }
-aside .block .social-container:hover i {
+aside .block .social-container a:hover i {
   color: var(--primary);
   transform: scale(1.3);
   transition: all 0.2s;
 }
-aside .block .social-container i {
+aside .block .social-container a i {
   font-size: 2rem;
   flex: 0 0 50px;
   margin-right: 1rem;
 }
-aside .block .social-container p {
+aside .block .social-container a p {
   flex: auto;
   margin: 0;
 }
