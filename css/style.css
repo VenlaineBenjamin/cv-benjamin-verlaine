@@ -176,6 +176,7 @@ aside .block .btn-pdf:hover {
 aside .block .btn-pdf i {
   font-size: 1.5rem;
   margin: 0 1rem;
+  color: var(--primary);
 }
 aside .block h3 {
   margin-bottom: 0;
