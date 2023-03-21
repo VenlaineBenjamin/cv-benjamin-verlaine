@@ -137,6 +137,9 @@ aside {
                     transform: scale(1.3);
                     transition: all 0.2s;
                 }
+                p {
+                    color: var(--primary);
+                }
             }
             i {
                 font-size: 2rem;
