@@ -69,17 +69,20 @@ aside {
             text-align: center;
             border: 2px solid var(--primary);
             border-radius: 5px;
-            padding: 3rem 0;
-            font-size: 2rem;
+            padding: 3rem 1rem;
+            font-size: 1.7rem;
             transition: all 0.2s;
+            font-weight: 700;
             &:hover {
                 border: 2px solid var(--dark);
                 background: var(--dark);
                 color: white;
-                font-weight: 700;
+                i {
+                    color: white;
+                }
             }
             i {
-                font-size: 1.5rem;
+                font-size: 3rem;
                 margin: 0 1rem;
                 color: var(--primary);
             }
