@@ -18,22 +18,20 @@
 
 @keyframes bounce {
   0% {
-    transform: rotate(-45deg);
-  }
-  10% {
-    transform: rotate(-35deg);
-  }
-  70% {
-    transform: rotate(20deg);
-  }
-  80% {
-    transform: rotate(-10deg);
-  }
-  90% {
-    transform: rotate(5deg);
+    opacity: 0;
+    transform: translateY(-5rem);
   }
   100% {
-    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+@keyframes fadeR {
+  0% {
+    opacity: 0;
+    transform: translateX(-5rem);
+  }
+  100% {
+    opacity: 1;
   }
 }
 .mb-5 {
@@ -148,6 +146,7 @@ header p {
 }
 .picture img {
   border-radius: 50%;
+  animation: fadeR 2s;
 }
 
 aside {
@@ -314,6 +313,7 @@ footer {
   color: white;
   padding: 5rem;
   background: var(--text);
+  position: relative;
 }
 footer h2 {
   margin-bottom: 3rem;
@@ -355,6 +355,10 @@ footer form input {
 }
 footer form input::placeholder {
   color: var(--text);
+}
+footer P {
+  position: absolute;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

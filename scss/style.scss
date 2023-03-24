@@ -55,6 +55,7 @@ header {
     background: var(--background);
     img {
         border-radius: 50%;
+        animation: fadeR 2s;
     }
 }
 
@@ -222,6 +223,7 @@ footer {
     color: white;
     padding: 5rem;
     background: var(--text);
+    position: relative;
     h2 {
         margin-bottom: 3rem;
     }
@@ -262,5 +264,9 @@ footer {
                 color: var(--text);
             }
         }
+    }
+    P {
+        position: absolute;
+        bottom: 0;
     }
 }
