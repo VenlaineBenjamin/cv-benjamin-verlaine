@@ -16,7 +16,7 @@
   color: var(--hint);
 }
 
-@keyframes bounce {
+@keyframes fadeT {
   0% {
     opacity: 0;
     transform: translateY(-5rem);
@@ -29,6 +29,15 @@
   0% {
     opacity: 0;
     transform: translateX(-5rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeB {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
   }
   100% {
     opacity: 1;
@@ -131,9 +140,13 @@ header h1 {
   font-weight: 300;
   letter-spacing: 3rem;
 }
-header span {
+header .top {
   display: inline-block;
-  animation: bounce 2s;
+  animation: fadeT 2s;
+}
+header .bottom {
+  display: inline-block;
+  animation: fadeB 2s;
 }
 header p {
   letter-spacing: 0.5rem;
