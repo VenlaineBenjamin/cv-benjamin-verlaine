@@ -134,6 +134,11 @@ header {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 480px) {
+  header {
+    padding: 4rem 4rem;
+  }
+}
 header h1 {
   font-size: 4.5rem;
   line-height: 8rem;
@@ -157,6 +162,13 @@ header p {
   padding: 6rem;
   background: var(--background);
 }
+@media (max-width: 480px) {
+  .picture {
+    padding: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 .picture img {
   border-radius: 50%;
   animation: fadeR 2s;
@@ -167,6 +179,11 @@ aside {
   background: var(--background);
   border-right: 1px solid var(--border);
   padding: 5rem;
+}
+@media (max-width: 480px) {
+  aside {
+    padding: 1rem;
+  }
 }
 aside .block {
   margin-bottom: 5rem;
@@ -179,6 +196,12 @@ aside .block .btn-pdf {
   font-size: 1.7rem;
   transition: all 0.2s;
   font-weight: 700;
+}
+@media (max-width: 480px) {
+  aside .block .btn-pdf {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 aside .block .btn-pdf:hover {
   border: 2px solid var(--dark);
@@ -206,6 +229,11 @@ aside .block .bar-skill {
   height: 5px;
   background: var(--hint);
   position: relative;
+}
+@media (max-width: 480px) {
+  aside .block .bar-skill {
+    width: 80%;
+  }
 }
 aside .block .bar-skill .bar-skill-progress {
   position: absolute;
@@ -281,6 +309,11 @@ main {
   grid-area: main;
   padding: 5rem;
 }
+@media (max-width: 480px) {
+  main {
+    padding: 1rem;
+  }
+}
 main h2 {
   margin-bottom: 4rem;
 }
@@ -328,6 +361,11 @@ footer {
   background: var(--text);
   position: relative;
 }
+@media (max-width: 480px) {
+  footer {
+    padding: 1rem;
+  }
+}
 footer h2 {
   margin-bottom: 3rem;
 }
@@ -365,6 +403,11 @@ footer form input {
   min-width: 400px;
   padding: 1rem 2rem;
   line-height: 2rem;
+}
+@media (max-width: 480px) {
+  footer form input {
+    min-width: 300px;
+  }
 }
 footer form input::placeholder {
   color: var(--text);

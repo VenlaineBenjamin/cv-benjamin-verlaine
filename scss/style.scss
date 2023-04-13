@@ -34,6 +34,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include xs {
+        padding: 4rem 4rem;
+    }
     h1 {
         font-size: 4.5rem;
         line-height: 8rem;
@@ -57,6 +60,11 @@ header {
     grid-area: picture;
     padding: 6rem;
     background: var(--background);
+    @include xs {
+        padding: 1rem;
+        width: 90%;
+        margin: 0 auto;
+    }
     img {
         border-radius: 50%;
         animation: fadeR 2s;
@@ -68,6 +76,9 @@ aside {
     background: var(--background);
     border-right: 1px solid var(--border);
     padding: 5rem;
+    @include xs {
+        padding: 1rem;
+    }
     .block {
         margin-bottom: 5rem;
         .btn-pdf {
@@ -78,6 +89,10 @@ aside {
             font-size: 1.7rem;
             transition: all 0.2s;
             font-weight: 700;
+            @include xs {
+                width: 50%;
+                margin: 0 auto;
+            }
             &:hover {
                 border: 2px solid var(--dark);
                 background: var(--dark);
@@ -105,6 +120,9 @@ aside {
             height: 5px;
             background: var(--hint);
             position: relative;
+            @include xs {
+                width: 80%;
+            }
             .bar-skill-progress {
                 position: absolute;
                 height: 5px;
@@ -181,6 +199,9 @@ aside {
 main {
     grid-area: main;
     padding: 5rem;
+    @include xs {
+        padding: 1rem;
+    }
     h2 {
         margin-bottom: 4rem;
     }
@@ -228,6 +249,9 @@ footer {
     padding: 5rem;
     background: var(--text);
     position: relative;
+    @include xs {
+        padding: 1rem;
+    }
     h2 {
         margin-bottom: 3rem;
     }
@@ -264,6 +288,9 @@ footer {
             min-width: 400px;
             padding: 1rem 2rem;
             line-height: 2rem;
+            @include xs {
+                min-width: 300px;
+            }
             &::placeholder {
                 color: var(--text);
             }
