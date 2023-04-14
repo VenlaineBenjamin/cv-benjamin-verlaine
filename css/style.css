@@ -314,6 +314,16 @@ main {
     padding: 1rem;
   }
 }
+main .container-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .container-btn h3 {
+  background: var(--light);
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
 main h2 {
   margin-bottom: 4rem;
 }
