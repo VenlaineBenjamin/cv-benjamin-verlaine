@@ -318,11 +318,19 @@ main .container-btn {
   display: flex;
   justify-content: space-evenly;
 }
-main .container-btn h3 {
-  background: var(--light);
-  color: white;
+main .container-btn a {
+  border: 2px var(--primary) solid;
+  color: var(--text);
   padding: 1rem;
   border-radius: 5px;
+  min-width: 150px;
+  text-align: center;
+  padding-bottom: 0;
+}
+main .container-btn a:hover {
+  border: 2px var(--dark) solid;
+  background: var(--dark);
+  color: white;
 }
 main h2 {
   margin-bottom: 4rem;
