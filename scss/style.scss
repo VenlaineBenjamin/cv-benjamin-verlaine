@@ -254,6 +254,25 @@ main {
             }
         }
     }
+    .portfolio_container {
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 300px 300px 300px;
+        justify-content: center;
+        gap: 4rem;
+        a {
+            border: 2px solid var(--dark);
+            border-radius: 5px;
+            height: 200px;
+            overflow: hidden;
+            filter: grayscale(80%);
+
+            &:hover {
+                animation-duration: 1s;
+                filter: grayscale(0%);
+            }
+        }
+    }
 }
 
 footer {
