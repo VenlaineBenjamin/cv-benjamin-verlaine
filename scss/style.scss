@@ -260,16 +260,16 @@ main {
         grid-template-rows: 300px 300px 300px;
         justify-content: center;
         gap: 4rem;
-        a {
+        a > img {
             border: 2px solid var(--dark);
             border-radius: 5px;
             height: 200px;
             overflow: hidden;
             filter: grayscale(80%);
-
+            filter: blur(2px);
             &:hover {
-                animation-duration: 1s;
                 filter: grayscale(0%);
+                filter: blur(0px);
             }
         }
     }

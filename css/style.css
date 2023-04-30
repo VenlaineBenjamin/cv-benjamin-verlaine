@@ -373,16 +373,17 @@ main .portfolio_container {
   justify-content: center;
   gap: 4rem;
 }
-main .portfolio_container a {
+main .portfolio_container a > img {
   border: 2px solid var(--dark);
   border-radius: 5px;
   height: 200px;
   overflow: hidden;
   filter: grayscale(80%);
+  filter: blur(2px);
 }
-main .portfolio_container a:hover {
-  animation-duration: 1s;
+main .portfolio_container a > img:hover {
   filter: grayscale(0%);
+  filter: blur(0px);
 }
 
 footer {
