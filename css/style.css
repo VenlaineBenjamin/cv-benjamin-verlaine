@@ -370,7 +370,7 @@ main .experience .content ul {
 }
 main .portfolio_container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, 400px);
   grid-template-rows: 300px 300px 300px;
   justify-content: center;
   gap: 4rem;
