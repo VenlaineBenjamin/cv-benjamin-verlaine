@@ -221,6 +221,11 @@ main {
                 color: white;
             }
         }
+        .active {
+            border: 2px var(--dark) solid;
+            background: var(--dark);
+            color: white;
+        }
     }
     h2 {
         margin-bottom: 4rem;
