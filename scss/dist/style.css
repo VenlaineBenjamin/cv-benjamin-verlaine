@@ -378,7 +378,7 @@ main .portfolio_container {
   grid-template-columns: repeat(auto-fill, 400px);
   grid-template-rows: 300px 300px 300px;
   justify-content: center;
-  gap: 4rem;
+  gap: 6rem;
 }
 main .portfolio_container a > img {
   border: 2px solid var(--dark);
