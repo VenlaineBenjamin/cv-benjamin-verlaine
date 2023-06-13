@@ -446,6 +446,7 @@ footer form input {
   min-width: 400px;
   padding: 1rem 2rem;
   line-height: 2rem;
+  transition: background-color 500ms;
 }
 @media (max-width: 480px) {
   footer form input {

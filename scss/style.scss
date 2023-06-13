@@ -331,6 +331,7 @@ footer {
             min-width: 400px;
             padding: 1rem 2rem;
             line-height: 2rem;
+            transition: background-color 500ms;
             @include xs {
                 min-width: 300px;
             }
