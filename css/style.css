@@ -455,6 +455,13 @@ footer form input {
 footer form input::placeholder {
   color: var(--text);
 }
+footer form input:invalid {
+  background-color: var(--invalid);
+  color: white;
+}
+footer form input:valid {
+  background-color: rgb(163, 231, 163);
+}
 footer P {
   position: absolute;
   bottom: 0;

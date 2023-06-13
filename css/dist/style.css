@@ -506,6 +506,15 @@ footer form input::placeholder {
   color: var(--text);
 }
 
+footer form input:invalid {
+  background-color: var(--invalid);
+  color: white;
+}
+
+footer form input:valid {
+  background-color: #a3e7a3;
+}
+
 footer P {
   position: absolute;
   bottom: 0;

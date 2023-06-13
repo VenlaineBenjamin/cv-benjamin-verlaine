@@ -337,6 +337,13 @@ footer {
             &::placeholder {
                 color: var(--text);
             }
+            &:invalid {
+                background-color: var(--invalid);
+                color: white;
+            }
+            &:valid {
+                background-color: rgb(163, 231, 163);
+            }
         }
     }
     P {
