@@ -194,7 +194,6 @@ aside .block .btn-pdf {
   border-radius: 5px;
   padding: 3rem 1rem;
   font-size: 1.7rem;
-  transition: all 0.2s;
   font-weight: 700;
   transition: all 0.5s;
 }
@@ -205,6 +204,7 @@ aside .block .btn-pdf {
   }
 }
 aside .block .btn-pdf:hover {
+  transform: scale(1.15);
   border: 2px solid var(--dark);
   background: var(--dark);
   color: white;
@@ -289,6 +289,7 @@ aside .block .social-container {
   cursor: pointer;
 }
 aside .block .social-container:hover {
+  transform: scale(1.15);
   background: var(--border);
 }
 aside .block .social-container:hover i {
@@ -327,9 +328,10 @@ main .container-btn a {
   min-width: 150px;
   text-align: center;
   padding-bottom: 0;
-  transition: all 0.5s;
+  transition: all 450ms;
 }
 main .container-btn a:hover {
+  transform: scale(1.15);
   border: 2px var(--dark) solid;
   background: var(--dark);
   color: white;
