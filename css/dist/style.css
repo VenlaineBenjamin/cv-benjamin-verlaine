@@ -170,7 +170,7 @@ header p {
 
 @media (max-width: 480px) {
   .picture {
-    padding: 1rem;
+    padding: 0;
     width: 90%;
     margin: 0 auto;
   }
@@ -180,6 +180,11 @@ header p {
   animation: fadeR 2s;
 }
 
+@media (max-width: 480px) {
+  .picture img {
+    border-radius: 0;
+  }
+}
 aside {
   grid-area: aside;
   background: var(--background);
@@ -321,6 +326,11 @@ aside .block .social-container:hover i {
   transition: all 0.2s;
 }
 
+@media (max-width: 480px) {
+  aside .block .social-container:hover {
+    transform: none;
+  }
+}
 aside .block .social-container i {
   font-size: 2rem;
   flex: 0 0 50px;
