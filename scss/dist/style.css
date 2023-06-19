@@ -357,6 +357,7 @@ main h2 {
 main p {
   letter-spacing: 0.1rem;
   line-height: 3rem;
+  text-align: justify;
 }
 main .experience {
   display: flex;
