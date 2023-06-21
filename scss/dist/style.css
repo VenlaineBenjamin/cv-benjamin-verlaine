@@ -351,6 +351,10 @@ main .container-btn .active {
   background: var(--dark);
   color: white;
 }
+main .container-btn .active:hover {
+  transform: none;
+  cursor: default;
+}
 main h2 {
   margin-bottom: 4rem;
 }

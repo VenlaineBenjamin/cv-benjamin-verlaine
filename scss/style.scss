@@ -233,6 +233,10 @@ main {
             border: 2px var(--dark) solid;
             background: var(--dark);
             color: white;
+            &:hover {
+                transform: none;
+                cursor: default;
+            }
         }
     }
     h2 {
