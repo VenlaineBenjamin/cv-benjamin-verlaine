@@ -44,7 +44,7 @@
     opacity: 1;
   }
 }
-@keyframes gradient {
+@keyframes moveGradient {
   0% {
     background-position: 0% 50%;
   }
@@ -137,8 +137,8 @@ img {
 }
 header {
   grid-area: front;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #0081c9, #5bc0f8, #86e5ff, #ffc93c);
+  animation: moveGradient 15s ease infinite;
   padding: 10rem 5rem;
   text-align: center;
   color: white;
@@ -150,13 +150,13 @@ header {
 
 @media (max-width: 480px) {
   header {
-    padding: 4rem 4rem;
+    padding: 2rem 2rem;
   }
 }
 header h1 {
   font-size: 4.5rem;
   line-height: 8rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 3rem;
 }
 
@@ -478,7 +478,7 @@ footer {
 
 @media (max-width: 480px) {
   footer {
-    padding: 1rem;
+    padding: 0;
   }
 }
 footer h2 {
@@ -490,6 +490,11 @@ footer form {
   align-items: center;
 }
 
+@media (max-width: 480px) {
+  footer form {
+    margin-bottom: 4rem;
+  }
+}
 footer form .prefix,
 footer form .postfix {
   background: linear-gradient(to right, var(--dark), var(--light));

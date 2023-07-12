@@ -26,8 +26,8 @@
 
 header {
     grid-area: front;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(-45deg, #0081c9, #5bc0f8, #86e5ff, #ffc93c);
+    animation: moveGradient 15s ease infinite;
     padding: 10rem 5rem;
     text-align: center;
     color: white;
@@ -36,12 +36,12 @@ header {
     justify-content: center;
     align-items: center;
     @include xs {
-        padding: 4rem 4rem;
+        padding: 2rem 2rem;
     }
     h1 {
         font-size: 4.5rem;
         line-height: 8rem;
-        font-weight: 300;
+        font-weight: 400;
         letter-spacing: 3rem;
     }
     .top {
@@ -307,7 +307,7 @@ footer {
     background: var(--text);
     position: relative;
     @include xs {
-        padding: 1rem;
+        padding: 0;
     }
     h2 {
         margin-bottom: 3rem;
@@ -315,6 +315,9 @@ footer {
     form {
         display: flex;
         align-items: center;
+        @include xs {
+            margin-bottom: 4rem;
+        }
         .prefix,
         .postfix {
             background: linear-gradient(to right, var(--dark), var(--light));
