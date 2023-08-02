@@ -420,6 +420,10 @@ main .portfolio_container a > img {
 main .portfolio_container a > img:hover {
   filter: grayscale(0%) blur(0px);
 }
+main .portfolio_container i {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
 
 footer {
   grid-area: footer;
