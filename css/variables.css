@@ -1,13 +1,13 @@
 :root {
-  --font-family: "Mulish", sans-serif;
-  --light: #f4c482;
-  --primary: #f59f0c;
-  --dark: #c7160c;
-  --text: #381e1d;
-  --background: #fafafa;
-  --hint: #9ca1a5;
-  --border: #ddd;
-  --invalid: #9e2a2b;
+    --font-family: "Mulish", sans-serif;
+    --light: #8b8be2;
+    --primary: #ba55d3;
+    --dark: #4b0082;
+    --text: #381e1d;
+    --background: #fafafa;
+    --hint: #9ca1a5;
+    --border: #ddd;
+    --invalid: #9e2a2b;
 }
 
 /*# sourceMappingURL=variables.css.map */

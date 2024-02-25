@@ -136,7 +136,7 @@ img {
 
 header {
   grid-area: front;
-  background: linear-gradient(-45deg, #c7160c, #f59f0c, #f4c482, #631604);
+  background: linear-gradient(-45deg, #f59f0c, #f4c482, #631604);
   animation: moveGradient 15s ease infinite;
   padding: 10rem 5rem;
   text-align: center;
